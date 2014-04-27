@@ -18,6 +18,9 @@
 		996F59B0190C874400579263 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996F598F190C874400579263 /* Cocoa.framework */; };
 		996F59B8190C874500579263 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 996F59B6190C874500579263 /* InfoPlist.strings */; };
 		996F59BA190C874500579263 /* AffineTransformStudy001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 996F59B9190C874500579263 /* AffineTransformStudy001Tests.m */; };
+		996F59C5190C875600579263 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 996F59C4190C875600579263 /* MyView.m */; };
+		996F59C8190C8C2D00579263 /* MyView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 996F59C7190C8C2D00579263 /* MyView2.m */; };
+		996F59CB190CA7F900579263 /* MyView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 996F59CA190CA7F900579263 /* MyView3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		996F59B5190C874400579263 /* AffineTransformStudy001Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AffineTransformStudy001Tests-Info.plist"; sourceTree = "<group>"; };
 		996F59B7190C874500579263 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		996F59B9190C874500579263 /* AffineTransformStudy001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffineTransformStudy001Tests.m; sourceTree = "<group>"; };
+		996F59C3190C875600579263 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		996F59C4190C875600579263 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		996F59C6190C8C2D00579263 /* MyView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView2.h; sourceTree = "<group>"; };
+		996F59C7190C8C2D00579263 /* MyView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView2.m; sourceTree = "<group>"; };
+		996F59C9190CA7F900579263 /* MyView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView3.h; sourceTree = "<group>"; };
+		996F59CA190CA7F900579263 /* MyView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,12 @@
 				996F59A1190C874400579263 /* AppDelegate.h */,
 				996F59A2190C874400579263 /* AppDelegate.m */,
 				996F59A4190C874400579263 /* MainMenu.xib */,
+				996F59C3190C875600579263 /* MyView.h */,
+				996F59C4190C875600579263 /* MyView.m */,
+				996F59C6190C8C2D00579263 /* MyView2.h */,
+				996F59C7190C8C2D00579263 /* MyView2.m */,
+				996F59C9190CA7F900579263 /* MyView3.h */,
+				996F59CA190CA7F900579263 /* MyView3.m */,
 				996F59A7190C874400579263 /* Images.xcassets */,
 				996F5996190C874400579263 /* Supporting Files */,
 			);
@@ -254,6 +269,9 @@
 			files = (
 				996F59A3190C874400579263 /* AppDelegate.m in Sources */,
 				996F599C190C874400579263 /* main.m in Sources */,
+				996F59CB190CA7F900579263 /* MyView3.m in Sources */,
+				996F59C5190C875600579263 /* MyView.m in Sources */,
+				996F59C8190C8C2D00579263 /* MyView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
